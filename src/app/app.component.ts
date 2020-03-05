@@ -12,6 +12,7 @@ export class AppComponent {
   defultQuestion = 'pet';
   genders = ['Male', 'Female'];
   submitted = false;
+  answer = '';
   user = {
     username: '',
     email: '',
